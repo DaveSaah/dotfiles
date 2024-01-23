@@ -3,9 +3,13 @@
   "height": 27,
   "modules-left": [
     "sway/workspaces",
+    "hyprland/workspaces",
     "sway/mode",
+    "hyprland/mode",
     "sway/scratchpad",
-    "sway/window"
+    "hyprland/scratchpad",
+    "sway/window",
+    "hyprland/window"
   ],
   "modules-center": [
     "custom/media"
@@ -28,7 +32,23 @@
     "format": "{icon}",
     "disable-click": true
   },
+  "hyprland/workspaces": {
+    "disable-scroll": true,
+    "all-outputs": true,
+    "format": "{icon}",
+    "disable-click": true
+  },
   "sway/scratchpad": {
+    "format": "{icon} {count} ",
+    "show-empty": false,
+    "format-icons": [
+      "",
+      ""
+    ],
+    "tooltip": true,
+    "tooltip-format": "{app}: {title}"
+  },
+  "hyprland/scratchpad": {
     "format": "{icon} {count} ",
     "show-empty": false,
     "format-icons": [
@@ -41,7 +61,14 @@
   "sway/mode": {
     "format": "<span style=\"italic\">{}</span>"
   },
+  "hyprland/mode": {
+    "format": "<span style=\"italic\">{}</span>"
+  },
   "sway/window": {
+    "format": "{title}",
+    "max-length": 20
+  },
+  "hyprland/window": {
     "format": "{title}",
     "max-length": 20
   },
@@ -69,7 +96,7 @@
     "spacing": 13
   },
   "clock": {
-    "format": " {:%a %d %b    %H:%M}",
+    "format": " {:%a %d %b    %H:%M:%S}",
     "format-alt": " {:%d/%m/%Y  %H:%M}",
     "interval": 1
   },
