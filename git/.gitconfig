@@ -1,0 +1,14 @@
+[user]
+	email = $GIT_EMAIL
+	name = $GIT_NAME
+[init]
+    defaultBranch = "main"
+[core] 
+    packedGitLimit = 1023m
+    packedGitWindowSize = 1023m
+[receive]
+    denyDeleteCurrent = "warn"
+[pack] 
+    deltaCacheSize = 1027m
+    packSizeLimit = 4097m
+    windowMemory = 4097m
