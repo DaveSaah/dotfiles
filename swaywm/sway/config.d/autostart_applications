@@ -1,0 +1,29 @@
+# Auth with polkit-gnome:
+exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+
+# Desktop notifications
+exec swaync
+
+### Output configuration
+exec swww init
+
+# # GTK3 applications take a long time to start
+# exec systemctl --user import-environment DISPLAY WAYLAND_DISPLAY SWAYSOCK
+# exec hash dbus-update-activation-environment 2>/dev/null && \
+#      dbus-update-activation-environment --systemd DISPLAY WAYLAND_DISPLAY SWAYSOCK
+     
+# Wob
+exec mkfifo $SWAYSOCK.wob
+exec tail -f $SWAYSOCK.wob | wob --border-color '#ffdcbb8c' --background-color '#cc3a3a3a' --bar-color '#ffdcbb8c'
+
+# Autotiling
+exec_always autotiling
+
+# Wlsunset
+exec ~/.config/sway/scripts/light.sh
+
+# Start gnome keyring
+exec --no-startup-id gnome-keyring-daemon --start --components=pkcs11,secrets,ssh
+
+exec systemctl --user import-environment XDG_SESSION_TYPE XDG_CURRENT_DESKTOP
+  exec dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=sway

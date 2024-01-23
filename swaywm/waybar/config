@@ -1,0 +1,150 @@
+{
+  "layer": "top",
+  "height": 27,
+  "modules-left": [
+    "sway/workspaces",
+    "sway/mode",
+    "sway/scratchpad",
+    "sway/window"
+  ],
+  "modules-center": [
+    "custom/media"
+  ],
+  "modules-right": [
+    "idle_inhibitor",
+    "backlight",
+    "pulseaudio",
+    "cpu",
+    "memory",
+    "temperature",
+    "battery",
+    "network",
+    "clock",
+    "tray"
+  ],
+  "sway/workspaces": {
+    "disable-scroll": true,
+    "all-outputs": true,
+    "format": "{icon}",
+    "disable-click": true
+  },
+  "sway/scratchpad": {
+    "format": "{icon} {count} ",
+    "show-empty": false,
+    "format-icons": [
+      "",
+      ""
+    ],
+    "tooltip": true,
+    "tooltip-format": "{app}: {title}"
+  },
+  "sway/mode": {
+    "format": "<span style=\"italic\">{}</span>"
+  },
+  "sway/window": {
+    "format": "{title}",
+    "max-length": 20
+  },
+  "custom/media": {
+    "format": "{}",
+    "escape": true,
+    "return-type": "json",
+    "max-length": 65,
+    "on-click": "playerctl play-pause",
+    "on-click-right": "playerctl stop",
+    "smooth-scrolling-threshold": 10,
+    "on-scroll-up": "playerctl next",
+    "on-scroll-down": "playerctl previous",
+    "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null"
+  },
+  "idle_inhibitor": {
+    "format": "{icon}",
+    "format-icons": {
+      "activated": "",
+      "deactivated": ""
+    }
+  },
+  "tray": {
+    "icon-size": 12,
+    "spacing": 13
+  },
+  "clock": {
+    "format": " {:%a %d %b    %H:%M}",
+    "format-alt": " {:%d/%m/%Y  %H:%M}",
+    "interval": 1
+  },
+  "cpu": {
+    "format": " {usage: >3}%",
+  },
+  "memory": {
+    "format": " {: >3}%",
+  },
+  "temperature": {
+    "thermal-zone": 6,
+    "critical-threshold": 80,
+    "format-critical": "{temperatureC}°C {icon}",
+    "format": "{temperatureC}°C {icon}",
+    "format-icons": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "backlight": {
+    "format": "{icon}{percent: >3}%",
+    "format-icons": [
+      "󰃞 ",
+      "󰃟 ",
+      "󰃝 ",
+      "󰃠 "
+    ]
+  },
+  "battery": {
+    "states": {
+      "good": 85,
+      "warning": 30,
+      "critical": 15
+    },
+    "format": "{icon} {capacity: >3}%",
+    "format-plugged": "{capacity}% ",
+    "format-charging": "{capacity}% ",
+    "format-icons": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ]
+  },
+  "network": {
+    "format": "󰤮 Disabled",
+    "format-wifi": "{icon}{essid} ({signalStrength}%)",
+    "format-ethernet": "󰈀 {ifname}: {ipaddr}/{cidr}",
+    "format-disconnected": "󰤮 Disconnected",
+    "tooltip-format": "{ifname} via {gwaddr}  ",
+    "format-alt": "{ifname}: {ipaddr}/{cidr}",
+    "format-icons": [
+      "󰤫 ",
+      "󰤟 ",
+      "󰤢 ",
+      "󰤥 ",
+      "󰤨 "
+    ]
+  },
+  "pulseaudio": {
+    "scroll-step": 5,
+    "format": "{icon}{volume: >3}%",
+    "format-muted": "󰝟 muted",
+    "format-bluetooth": "󰂱 󰋋 {volume}%",
+    "format-icons": {
+      "default": [
+        "󰝞 ",
+        " ",
+        "󰕾 ",
+        " "
+      ]
+    }
+  }
+}
