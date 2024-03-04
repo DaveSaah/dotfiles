@@ -8,7 +8,7 @@ set $up k
 set $right l
 
 # Your preferred terminal emulators
-set $term-float kitty
+set $term-float alacritty
 
 # Toggle control center
 bindsym $mod+Shift+n exec swaync-client -t -sw
