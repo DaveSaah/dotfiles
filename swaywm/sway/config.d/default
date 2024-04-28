@@ -8,11 +8,10 @@ set $up k
 set $right l
 
 # Your preferred terminal emulators
-set $term-float alacritty
+set $term-float kitty
 
 # Toggle control center
 bindsym $mod+Shift+n exec swaync-client -t -sw
-
 
 # Exit sway (logs you out of your Wayland session)
 bindsym $mod+Shift+e exec swaynag -t warning -m 'Want to exit sway?' -B 'Yes, exit sway' 'swaymsg exit'
@@ -182,7 +181,7 @@ bindsym --locked XF86MonBrightnessUp exec light -T 1.4
 bindsym --locked XF86MonBrightnessDown exec light -T 0.72
 
 # Screenshots
-bindsym print exec grimshot --notify save output
+bindsym print exec grimshot --notify copy output
 bindsym Shift+print exec grimshot --notify copy area
 
 # mailspring
