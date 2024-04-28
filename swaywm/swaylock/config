@@ -27,7 +27,8 @@ ignore-empty-password
 indicator
 disable-caps-lock-text
 clock
-image=$HOME/Pictures/Wallpapers/lofi/lofi-girl-18.png
+image=$HOME/personal/pictures/wallpapers/lock.jpg
 datestr=%a, %b %e
 indicator-radius=100
 key-hl-color=#bd19e6
+hide-keyboard-layout
