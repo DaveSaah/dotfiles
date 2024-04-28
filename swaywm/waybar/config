@@ -5,9 +5,7 @@
     "sway/workspaces",
     "hyprland/workspaces",
     "sway/mode",
-    "hyprland/mode",
     "sway/scratchpad",
-    "hyprland/scratchpad",
     "sway/window",
     "hyprland/window"
   ],
@@ -48,20 +46,7 @@
     "tooltip": true,
     "tooltip-format": "{app}: {title}"
   },
-  "hyprland/scratchpad": {
-    "format": "{icon} {count} ",
-    "show-empty": false,
-    "format-icons": [
-      "",
-      ""
-    ],
-    "tooltip": true,
-    "tooltip-format": "{app}: {title}"
-  },
   "sway/mode": {
-    "format": "<span style=\"italic\">{}</span>"
-  },
-  "hyprland/mode": {
     "format": "<span style=\"italic\">{}</span>"
   },
   "sway/window": {
