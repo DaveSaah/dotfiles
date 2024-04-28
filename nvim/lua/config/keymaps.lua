@@ -3,21 +3,13 @@
 -- Add any additional keymaps here
 
 local assign = vim.keymap.set
-local Util = require("lazyvim.util")
+local run = vim.cmd
 
 assign("n", "<C-h>", function()
-  vim.cmd("Alpha")
+  run("Alpha")
 end)
 
-assign("n", "[c", function()
-  require("treesitter-context").go_to_context()
-end, { silent = true })
-
 assign("n", "<F5>", function()
-  vim.cmd("UndotreeToggle")
-  vim.cmd("UndotreeFocus")
-end, { silent = true })
-
-assign("n", "<F7>", function()
-  Util.terminal()
+  run("UndotreeToggle")
+  run("UndotreeFocus")
 end, { silent = true })
