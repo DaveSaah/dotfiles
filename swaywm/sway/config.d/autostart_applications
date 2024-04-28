@@ -1,5 +1,5 @@
 # Auth with polkit-gnome:
-exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+exec /usr/libexec/polkit-gnome-authentication-agent-1
 
 # Desktop notifications
 exec swaync
@@ -27,3 +27,5 @@ exec --no-startup-id gnome-keyring-daemon --start --components=pkcs11,secrets,ss
 
 exec systemctl --user import-environment XDG_SESSION_TYPE XDG_CURRENT_DESKTOP
   exec dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=sway
+
+exec wmname LG3D
