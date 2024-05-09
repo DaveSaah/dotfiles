@@ -209,7 +209,7 @@ exec ~/.fehbg &
 exec --no-startup-id /usr/bin/gnome-keyring-daemon --start --components=ssh,secrets,pkcs11
 
 # rofimoji keybinding
-bindsym $mod+i exec --no-startup-id rofimoji
+# bindsym $mod+i exec --no-startup-id rofimoji
 
 # rofi menu
 bindsym $mod+d exec ~/.config/rofi/launchers/type-7/launcher.sh
