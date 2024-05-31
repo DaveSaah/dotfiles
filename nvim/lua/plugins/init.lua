@@ -9,10 +9,23 @@ return {
     event = { "VimEnter" },
   },
 
+  -- catppuccin
+  {
+    "catppuccin/nvim",
+    name = "catppuccin",
+    event = { "VimEnter" },
+  },
+
   -- UNDO tree
   {
     "mbbill/undotree",
     event = { "VeryLazy" },
+  },
+
+  -- transparency
+  {
+    "xiyaowong/transparent.nvim",
+    event = { "VimEnter" },
   },
 
   -- rust toolkit
@@ -29,16 +42,6 @@ return {
     event = { "VeryLazy" },
   },
 
-  {
-    "xiyaowong/transparent.nvim",
-    event = { "VimEnter" },
-  },
-
-  {
-    "rose-pine/neovim",
-    name = "rose-pine",
-    event = { "VeryLazy" },
-  },
   ------------------------------------------------
   -- CONFIGURATIONS
   ------------------------------------------------
@@ -47,7 +50,14 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "rose-pine",
+      colorscheme = "catppuccin-mocha",
+    },
+  },
+
+  {
+    "nvim-lspconfig",
+    opts = {
+      inlay_hints = { enabled = false },
     },
   },
 
@@ -55,7 +65,15 @@ return {
   {
     "nvim-lualine/lualine.nvim",
     opts = {
-      theme = "rose-pine",
+      theme = "catppuccin-mocha",
+    },
+  },
+
+  -- notification
+  {
+    "rcarriga/nvim-notify",
+    opts = {
+      background_colour = "#000000",
     },
   },
 
@@ -63,7 +81,16 @@ return {
     "goolord/alpha-nvim",
     opts = function()
       local dashboard = require("alpha.themes.dashboard")
-      local logo = [[Welcome, Bytes]]
+      local logo = [[
+888    888                                 888
+888    888                                 888
+888    888                                 888
+8888888888  .d88b.  .d8888b   .d88b.   .d88888
+888    888 d8P  Y8b 88K      d8P  Y8b d88" 888
+888    888 88888888 "Y8888b. 88888888 888  888
+888    888 Y8b.          X88 Y8b.     Y88b 888
+888    888  "Y8888   88888P'  "Y8888   "Y88888
+    ]]
       dashboard.section.header.val = vim.split(logo, "\n")
     end,
   },

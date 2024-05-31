@@ -11,12 +11,6 @@ return {
     enabled = false,
   },
   {
-    "catppuccin/nvim",
-    name = "catppuccin",
-    event = { "VimEnter" },
-    enabled = false,
-  },
-  {
     "rebelot/kanagawa.nvim",
     event = { "VimEnter" },
     enabled = false,
