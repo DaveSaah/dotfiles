@@ -1,0 +1,40 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "icon_theme": "Material Icon Theme",
+  "features": {
+    "edit_prediction_provider": "zed"
+  },
+  "telemetry": {
+    "metrics": false,
+    "diagnostics": false
+  },
+  "soft_wrap": "editor_width",
+  "vim_mode": true,
+  "ui_font_size": 16,
+  "buffer_font_family": "FiraCode Nerd Font Mono",
+  "buffer_font_size": 20,
+  "buffer_font_features": {
+    "ligatures": true
+  },
+  "restore_on_startup": "none",
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 10
+    }
+  },
+  "confirm_quit": true,
+  "load_direnv": "direct",
+  "theme": {
+    "mode": "system",
+    "light": "Catppuccin Mocha",
+    "dark": "Catppuccin Mocha"
+  },
+"auto_update": false
+}
