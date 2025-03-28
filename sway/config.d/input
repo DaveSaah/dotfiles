@@ -1,0 +1,23 @@
+### Input configuration
+#
+# Example configuration:
+# You can get the names of your inputs by running: swaymsg -t get_inputs
+# Put your touchpad's ID to replace "Touchpad-ID" (keep the quotation marks)
+
+input "1267:91:Elan_Touchpad" {
+      dwt enabled
+      tap enabled
+      natural_scroll enabled
+}
+
+# Read `man 5 sway-input` for more information about this section.
+#
+input "1:1:AT_Translated_Set_2_keyboard" {
+    xkb_layout gb
+}
+
+input "9354:4267:Telink_Wireless_Receiver" {
+    xkb_layout us
+}
+
+bindsym alt+space exec swaymsg input type:touchpad events toggle
