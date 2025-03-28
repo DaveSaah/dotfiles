@@ -1,0 +1,35 @@
+# This file contains fish universal variable definitions.
+# VERSION: 3.0
+SETUVAR __fish_initialized:3400
+SETUVAR _fisher_davesaah_2F_fish_2D_git_files:\x7e/\x2econfig/fish/functions/_git_log_prettily\x2efish\x1e\x7e/\x2econfig/fish/functions/ga\x2efish\x1e\x7e/\x2econfig/fish/functions/gaa\x2efish\x1e\x7e/\x2econfig/fish/functions/gaup\x2efish\x1e\x7e/\x2econfig/fish/functions/gb\x2efish\x1e\x7e/\x2econfig/fish/functions/gbl\x2efish\x1e\x7e/\x2econfig/fish/functions/gbls\x2efish\x1e\x7e/\x2econfig/fish/functions/gbr\x2efish\x1e\x7e/\x2econfig/fish/functions/gc\x21\x2efish\x1e\x7e/\x2econfig/fish/functions/gcb\x2efish\x1e\x7e/\x2econfig/fish/functions/gcmsg\x2efish\x1e\x7e/\x2econfig/fish/functions/gco\x2efish\x1e\x7e/\x2econfig/fish/functions/gcount\x2efish\x1e\x7e/\x2econfig/fish/functions/gd\x2efish\x1e\x7e/\x2econfig/fish/functions/gds\x2efish\x1e\x7e/\x2econfig/fish/functions/gf\x2efish\x1e\x7e/\x2econfig/fish/functions/glg\x2efish\x1e\x7e/\x2econfig/fish/functions/glgp\x2efish\x1e\x7e/\x2econfig/fish/functions/glo\x2efish\x1e\x7e/\x2econfig/fish/functions/glod\x2efish\x1e\x7e/\x2econfig/fish/functions/glods\x2efish\x1e\x7e/\x2econfig/fish/functions/glog\x2efish\x1e\x7e/\x2econfig/fish/functions/gloga\x2efish\x1e\x7e/\x2econfig/fish/functions/glol\x2efish\x1e\x7e/\x2econfig/fish/functions/glola\x2efish\x1e\x7e/\x2econfig/fish/functions/glols\x2efish\x1e\x7e/\x2econfig/fish/functions/glp\x2efish\x1e\x7e/\x2econfig/fish/functions/gls\x2efish\x1e\x7e/\x2econfig/fish/functions/glum\x2efish\x1e\x7e/\x2econfig/fish/functions/gm\x2efish\x1e\x7e/\x2econfig/fish/functions/gma\x2efish\x1e\x7e/\x2econfig/fish/functions/gmom\x2efish\x1e\x7e/\x2econfig/fish/functions/gmt\x2efish\x1e\x7e/\x2econfig/fish/functions/gmtvim\x2efish\x1e\x7e/\x2econfig/fish/functions/gmum\x2efish\x1e\x7e/\x2econfig/fish/functions/gp\x2efish\x1e\x7e/\x2econfig/fish/functions/gpd\x2efish\x1e\x7e/\x2econfig/fish/functions/gpf\x21\x2efish\x1e\x7e/\x2econfig/fish/functions/gpf\x2efish\x1e\x7e/\x2econfig/fish/functions/gpl\x2efish\x1e\x7e/\x2econfig/fish/functions/gpoat\x2efish\x1e\x7e/\x2econfig/fish/functions/gpr\x2efish\x1e\x7e/\x2econfig/fish/functions/gpristine\x2efish\x1e\x7e/\x2econfig/fish/functions/gpsup\x2efish\x1e\x7e/\x2econfig/fish/functions/gpu\x2efish\x1e\x7e/\x2econfig/fish/functions/gpv\x2efish\x1e\x7e/\x2econfig/fish/functions/gr\x2efish\x1e\x7e/\x2econfig/fish/functions/gra\x2efish\x1e\x7e/\x2econfig/fish/functions/grb\x2efish\x1e\x7e/\x2econfig/fish/functions/grba\x2efish\x1e\x7e/\x2econfig/fish/functions/grbc\x2efish\x1e\x7e/\x2econfig/fish/functions/grbd\x2efish\x1e\x7e/\x2econfig/fish/functions/grbi\x2efish\x1e\x7e/\x2econfig/fish/functions/grbm\x2efish\x1e\x7e/\x2econfig/fish/functions/grbo\x2efish\x1e\x7e/\x2econfig/fish/functions/grbs\x2efish\x1e\x7e/\x2econfig/fish/functions/grename\x2efish\x1e\x7e/\x2econfig/fish/functions/grev\x2efish\x1e\x7e/\x2econfig/fish/functions/grh\x2efish\x1e\x7e/\x2econfig/fish/functions/grhh\x2efish\x1e\x7e/\x2econfig/fish/functions/grm\x2efish\x1e\x7e/\x2econfig/fish/functions/grmc\x2efish\x1e\x7e/\x2econfig/fish/functions/grmv\x2efish\x1e\x7e/\x2econfig/fish/functions/groh\x2efish\x1e\x7e/\x2econfig/fish/functions/grrm\x2efish\x1e\x7e/\x2econfig/fish/functions/grs\x2efish\x1e\x7e/\x2econfig/fish/functions/grset\x2efish\x1e\x7e/\x2econfig/fish/functions/grss\x2efish\x1e\x7e/\x2econfig/fish/functions/grst\x2efish\x1e\x7e/\x2econfig/fish/functions/grt\x2efish\x1e\x7e/\x2econfig/fish/functions/gru\x2efish\x1e\x7e/\x2econfig/fish/functions/grup\x2efish\x1e\x7e/\x2econfig/fish/functions/grv\x2efish\x1e\x7e/\x2econfig/fish/functions/gsb\x2efish\x1e\x7e/\x2econfig/fish/functions/gsd\x2efish\x1e\x7e/\x2econfig/fish/functions/gsh\x2efish\x1e\x7e/\x2econfig/fish/functions/gsi\x2efish\x1e\x7e/\x2econfig/fish/functions/gsps\x2efish\x1e\x7e/\x2econfig/fish/functions/gsr\x2efish\x1e\x7e/\x2econfig/fish/functions/gss\x2efish\x1e\x7e/\x2econfig/fish/functions/gst\x2efish\x1e\x7e/\x2econfig/fish/functions/gstaa\x2efish\x1e\x7e/\x2econfig/fish/functions/gstall\x2efish\x1e\x7e/\x2econfig/fish/functions/gstc\x2efish\x1e\x7e/\x2econfig/fish/functions/gstd\x2efish\x1e\x7e/\x2econfig/fish/functions/gstl\x2efish\x1e\x7e/\x2econfig/fish/functions/gstp\x2efish\x1e\x7e/\x2econfig/fish/functions/gsts\x2efish\x1e\x7e/\x2econfig/fish/functions/gstu\x2efish\x1e\x7e/\x2econfig/fish/functions/gsu\x2efish\x1e\x7e/\x2econfig/fish/functions/gsw\x2efish\x1e\x7e/\x2econfig/fish/functions/gswc\x2efish\x1e\x7e/\x2econfig/fish/functions/gtl\x2efish\x1e\x7e/\x2econfig/fish/functions/gts\x2efish\x1e\x7e/\x2econfig/fish/functions/gtv\x2efish\x1e\x7e/\x2econfig/fish/functions/gunignore\x2efish\x1e\x7e/\x2econfig/fish/functions/gunwip\x2efish\x1e\x7e/\x2econfig/fish/functions/gup\x2efish\x1e\x7e/\x2econfig/fish/functions/gupa\x2efish\x1e\x7e/\x2econfig/fish/functions/gupav\x2efish\x1e\x7e/\x2econfig/fish/functions/gupv\x2efish\x1e\x7e/\x2econfig/fish/functions/gwch\x2efish\x1e\x7e/\x2econfig/fish/functions/gwip\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/fish\x2dgit\x2efish
+SETUVAR _fisher_jorgebucaran_2F_fisher_files:\x7e/\x2econfig/fish/functions/fisher\x2efish\x1e\x7e/\x2econfig/fish/completions/fisher\x2efish
+SETUVAR _fisher_plugins:jorgebucaran/fisher\x1edavesaah/fish\x2dgit
+SETUVAR _fisher_upgraded_to_4_4:\x1d
+SETUVAR fish_color_autosuggestion:brblack
+SETUVAR fish_color_cancel:\x2dr
+SETUVAR fish_color_command:blue
+SETUVAR fish_color_comment:red
+SETUVAR fish_color_cwd:green
+SETUVAR fish_color_cwd_root:red
+SETUVAR fish_color_end:green
+SETUVAR fish_color_error:brred
+SETUVAR fish_color_escape:brcyan
+SETUVAR fish_color_history_current:\x2d\x2dbold
+SETUVAR fish_color_host:normal
+SETUVAR fish_color_host_remote:yellow
+SETUVAR fish_color_normal:normal
+SETUVAR fish_color_operator:brcyan
+SETUVAR fish_color_param:cyan
+SETUVAR fish_color_quote:yellow
+SETUVAR fish_color_redirection:cyan\x1e\x2d\x2dbold
+SETUVAR fish_color_search_match:bryellow\x1e\x2d\x2dbackground\x3dbrblack
+SETUVAR fish_color_selection:white\x1e\x2d\x2dbold\x1e\x2d\x2dbackground\x3dbrblack
+SETUVAR fish_color_status:red
+SETUVAR fish_color_user:brgreen
+SETUVAR fish_color_valid_path:\x2d\x2dunderline
+SETUVAR fish_key_bindings:fish_default_key_bindings
+SETUVAR fish_pager_color_completion:normal
+SETUVAR fish_pager_color_description:yellow\x1e\x2di
+SETUVAR fish_pager_color_prefix:normal\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
+SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
+SETUVAR fish_pager_color_selected_background:\x2dr
